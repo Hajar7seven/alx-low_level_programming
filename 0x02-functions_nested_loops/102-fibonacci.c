@@ -11,7 +11,8 @@ int main(void)
 	int i;
 	i=3;
 
-	long int f = 1, s = 2;
+	long int f = 1, 
+	long int s = 2;
 	long int n = f + s;
 
 	printf("%lu, ", f);
