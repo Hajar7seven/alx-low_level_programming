@@ -10,8 +10,8 @@ int main(void)
 {
 	int i;
 
-	long int f = 1;
-	long int s = 2;
+	long int f = 0;
+	long int s = 1;
 	long int n;
 
 	for (i = 0; i < 50; i++)
