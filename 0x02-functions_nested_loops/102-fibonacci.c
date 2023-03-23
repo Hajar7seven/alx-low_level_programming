@@ -9,30 +9,23 @@
 int main(void)
 {
 	int i;
-	i=3;
 
-	long int f = 1, 
+	long int f = 1;
 	long int s = 2;
-	long int n = f + s;
+	long int n;
 
-	printf("%lu, ", f);
-	printf("%lu, ", s);
-
-	while (i <= 50)
+	for (i = 0; i < 50; i++)
 	{
-		if (i ==50)
-		{
-			printf("%lu \n", n);
-		}
-		else
-		{
-			printf("%lu, ", n);
-		}
-		
+		n = f + s;
+		printf("%lu", n);
+
 		f = s;
 		s = n;
-		n = f + s;
-		i++;
+
+		if (i == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
 	return (0);
 }
