@@ -25,6 +25,7 @@ char *cap_string(char *s)
 				|| s[i] == '0')
 			s[i] = 32;
 		}
+		s[i] = s[i] - 32;
 	}
 	return (s);
 }
