@@ -19,7 +19,7 @@ void print_number(int n)
 		_putchar('-');
 		i = n * -1;
 	}
-	if (i / 10 != 0)
+	if (i / 10)
 	{
 		print_number(i / 10);
 	}
