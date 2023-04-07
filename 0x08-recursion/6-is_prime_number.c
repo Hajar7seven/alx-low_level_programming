@@ -19,7 +19,7 @@ int _check_if_prime_num(int n1, int i)
 	{
 		return (0);
 	}
-	if (n1 > i/ 2)
+	if (n1 > i / 2)
 	{
 		return (1);
 	}
