@@ -10,7 +10,7 @@
  */
 char *_strdup(char *str)
 {
-	unsigned int i, j;
+	int i, j;
 	char *AB;
 
 	if (str == NULL)
@@ -23,7 +23,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for (j = 0; j < i; j++)
+	for (j = 0; j <= i; j++)
 		AB[j] = str[j];
 	return (AB);
 }
