@@ -18,8 +18,8 @@ int *array_range(int min, int max)
 	{
 		return (NULL);
 	}
-	size = (max - min);
-	a = malloc(sizeof(int) * (size + 1));
+	size = (max - min) + 1;
+	a = malloc(sizeof(int) * size);
 	if (a == NULL)
 	{
 		return (NULL);
